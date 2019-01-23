@@ -1,0 +1,48 @@
+.row_branchen .card {
+    margin-bottom: 25px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .row_branchen .card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .row_branchen .card:hover .card__shadow--1 {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .row_branchen .card .image__wrapper {
+    position: relative;
+  }
+  .row_branchen .card .card__shadow--1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    width: 100%;
+    height: 100%;
+  }
+  .row_branchen .card a {
+    color: #1c1c1c;
+  }
+  .row_branchen .card a:hover {
+    color: #212121;
+    text-decoration: none;
+  }
+  .row_branchen .card a h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.82);
+    padding-bottom: 10px;
+    color: #212121;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .row_branchen .card a p {
+    font-size: 13px;
+    color: #232323;
+  }
+  .row_branchen .card img {
+    width: 100%;
+  }
